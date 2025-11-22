@@ -72,53 +72,61 @@
 
         <!--Esta va a ser la seccion de Contacto-->
         <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia quaerat distinctio <br>
-               unde labore dolore voluptate nam, sapiente recusandae fugit accusamus tenetur illo <br>
-               porro veniam, adipisci consequuntur exercitationem. Expedita, quam quo!</p>
+            <h2>Agenda una Cita</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Información de la Mascota</legend>
+                    <div>
+                        <label for="nombre_mascota">Nombre de la mascota:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="especie">Especie:</label>
+                        <input type="text" placeholder="Perro, Gato">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Información del Dueño</legend>
+                    <div>
+                        <label for="nombre_dueno">Tu nombre:</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="telefono">Teléfono de contacto:</label>
+                        <input type="tel">
+                    </div>
+                    <div>
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Detalles de la Cita</legend>
+                    <div>
+                        <label for="fecha_cita">Fecha deseada:</label>
+                        <input type="date">
+                    </div>
+                    <div>
+                        <label for="motivo">Motivo de la consulta:</label>
+                        <div>
+                            <label for=""><input type="radio">Consultas Generales</label>
+                            <label for=""><input type="radio">Vacunación</label>
+                            <label for=""><input type="radio">Cirugías</label>
+                            <label for=""><input type="radio">Estética Canina y Felina</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Enviar Solicitud de Cita</button>
+            </form>
         </section>
     </main>
 
     <!--Pie de pagina-->
     <footer>
-        <section>
-            <h2></h2>
-            <p></p>
-
-            <form action="">
-                <label for=""></label>
-                <input type="text" placeholder="Aqui va tu nombre">
-
-                <label for="Celular">Celular</label>
-                <input type="number" placeholder="Escribe tu nombre">
-
-                <label for="">Sabor del pastel:</label>
-                <div>
-                    <label for=""><input type="radio">Chocolate</label>
-                    <label for=""><input type="radio">Vainilla</label>
-                    <label for=""><input type="radio">Fresa</label>
-                    <label for=""><input type="radio">3 Leches</label>
-                </div>
-
-                <label for="">Extras:</label>
-                <div>
-                    <label for=""><input type="checkbox">nuez</label>
-                    <label for=""><input type="checkbox">FResas</label>
-                    <label for=""><input type="checkbox">Vela de cumple</label>
-                    <label for=""><input type="checkbox">Decoracion</label>
-                    <label for=""><input type="checkbox">Dibujo</label>
-                </div>
-
-                <label for="">Fecha del evento</label>
-                <input type="text">
-
-                <label for="">Imagen de referncias</label>
-                <input type="file">
-
-                <button type="submit" style="border-radius: 40%; background-color: orange; color: aliceblue;">Enviar pedido</button>
-            </form>
-        </section>
-
+        
         <ul>
             <li><a href="facebook.com" target="_blank">Facebook</a></li>
             <li><a href="instagram.com" target="_blank">Instagram</a></li>
